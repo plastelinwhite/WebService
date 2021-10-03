@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebService", "WebService\WebService.csproj", "{85EC797E-8D22-4575-9DA2-375E398CC52B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{57A5E627-0955-4E58-939C-D16744C1CF41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EF2FBD6-A0B9-4A98-A1BD-12D2DE0469D2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{08DE6276-2CD7-4334-BF39-A1E3E130B8D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServiceClient", "WebServiceClient\WebServiceClient.csproj", "{18FE5B50-40A0-4A1A-A3CC-104859FEA0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseTestDataInitializer", "DatabaseTestDataInitializer\DatabaseTestDataInitializer.csproj", "{75F0A107-1407-4771-A927-F89C12C37DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85EC797E-8D22-4575-9DA2-375E398CC52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85EC797E-8D22-4575-9DA2-375E398CC52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85EC797E-8D22-4575-9DA2-375E398CC52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85EC797E-8D22-4575-9DA2-375E398CC52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A5E627-0955-4E58-939C-D16744C1CF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A5E627-0955-4E58-939C-D16744C1CF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A5E627-0955-4E58-939C-D16744C1CF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A5E627-0955-4E58-939C-D16744C1CF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08DE6276-2CD7-4334-BF39-A1E3E130B8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DE6276-2CD7-4334-BF39-A1E3E130B8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DE6276-2CD7-4334-BF39-A1E3E130B8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DE6276-2CD7-4334-BF39-A1E3E130B8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FE5B50-40A0-4A1A-A3CC-104859FEA0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FE5B50-40A0-4A1A-A3CC-104859FEA0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FE5B50-40A0-4A1A-A3CC-104859FEA0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FE5B50-40A0-4A1A-A3CC-104859FEA0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F0A107-1407-4771-A927-F89C12C37DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F0A107-1407-4771-A927-F89C12C37DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F0A107-1407-4771-A927-F89C12C37DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F0A107-1407-4771-A927-F89C12C37DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19116053-EEC1-46C2-A1BC-83C64AE7390E}
+	EndGlobalSection
+EndGlobal
